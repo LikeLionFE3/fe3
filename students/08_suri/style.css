@@ -1,13 +1,3 @@
 .back {
 	background: #ffe086;
 }
-.github {
-	display: block;
-	width: 4rem;
-	height: 4rem;
-}
-.github img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
