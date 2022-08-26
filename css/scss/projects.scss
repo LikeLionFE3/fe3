@@ -1,0 +1,51 @@
+article {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	word-break: keep-all;
+	line-height: 1.2;
+	padding: 4px;
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: 1em;
+		background: #fff;
+		overflow: hidden;
+	}
+	.thumbnail {
+		width: 100%;
+		height: 0;
+		padding-top: 80%;
+		overflow: hidden;
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+		justify-content: flex-start;
+		padding: 1.2rem;
+		word-break: break-all;
+
+		h3 {
+			font-weight: bold;
+			font-size: 2rem;
+		}
+		.description {
+			font-size: 1.4rem;
+		}
+		.member {
+			font-size: 1.4rem;
+			color: #767676;
+		}
+	}
+}
